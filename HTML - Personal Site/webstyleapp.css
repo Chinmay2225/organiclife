@@ -1,0 +1,92 @@
+*{
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+.navbar-brand{
+  font-size: 2.5rem;
+  color: black;
+  font-family: 'Pacifico',cursive;
+}
+.navbar-brand:hover{
+  color:lightgreen;
+}
+.nav-link{
+  margin-right: 10px;
+  margin-left: 10px;
+  color: black;
+  text-transform: uppercase;
+  font-family: 'Pacifico',cursive;
+}
+.nav-link:hover{
+  color:lightgreen;
+}
+.search{
+  height: 40px;
+  width: 80%;
+  border-radius: 10px;
+  outline: none;
+  margin-right:-20px;
+  border:2px solid rgb(50, 226, 92);
+  font-family: 'Pacifico',cursive;
+}
+.btn0{
+  height: 40px;
+  width: 40%;
+  outline:none;
+  border:none;
+  background:none;
+  border-radius: 10px;
+  background-color: lightgreen;
+  font-family: 'Pacifico',cursive;
+}
+.main{
+  background-image:url(organic.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-position: 50% 50%;
+  width: 100%;
+}
+.main h1{
+  font-size: 3rem;
+  font-weight:600;
+  font-family: 'Pacifico',cursive;
+}
+.btn1{
+  height: 45px;
+  width: 35%;
+  border: none;
+  outline: none;
+  background-color: rgb(25, 200, 92);
+  color: white;
+  font-weight: 700;
+  border-radius: 60px;
+}
+.col-lg-5{
+  font-family:'Pacifico',cursive;
+  text-align: center;
+}
+.neh{
+  font-family: 'Pacifico',cursive;
+}
+.btn1:hover{
+ background-color:#00FA9A;
+}
+.card:hover{
+  box-shadow: 1px 1px 13px 1px rgba(13,2,2,0.79);
+-webkit-box-shadow: 1px 1px 13px 1px rgba(13,2,2,0.79);
+-moz-box-shadow: 1px 1px 13px 1px rgba(13,2,2,0.79);
+}
+.pg{
+  font-family: 'Pacifico',cursive;
+}
+.h5{
+  font-family: 'Pacifico',cursive;
+}
+.img-fluid{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
